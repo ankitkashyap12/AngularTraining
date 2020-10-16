@@ -1,0 +1,9 @@
+
+  <label>city</label>
+  <input type="text" [(ngModel)]='city'>
+  <button (click)="addCity()">Add</button>
+  <ol>
+    <li *ngFor ="let city of cityList">{{city}}</li>
+    </ol>
+     
+

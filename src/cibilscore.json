@@ -1,0 +1,21 @@
+{
+    "scores":[
+        {
+            "panNumber":"enbpk",
+            "firstName":"Ankit",
+            "score":777
+        },
+        {
+            "panNumber":"f3984d",
+            "firstName":"Kashyap",
+            "score":455
+        },
+        {
+            "panNumber":"abcd",
+            "firstName":"Arindam",
+            "score":666
+        }
+        
+
+    ]
+}

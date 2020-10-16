@@ -1,0 +1,21 @@
+<h1> Cibil Score</h1>
+<img src="../../assets/images/poster.jpg" [ngStyle]={display:showImage}>
+
+<app-search [searchLabel]='searchtext'></app-search>
+<table class="table table-striped">
+  <tr>
+    <th>Pan number</th>
+    <th>First name</th>
+    <th>Score</th>
+  </tr>
+    <tr *ngFor="let score of scoreList">
+      <td>{{score.panNumber}}</td>
+      <td>{{score.firstName}}</td>
+      <td>{{score.score}}</td>
+      <td><button  (click)="handleClick('show')" [disabled]=showdisabled>Show Image</button></td>
+      <td><button (click)="handleClick('hide')" [disabled]=hidedisabled>Hide Image</button></td>
+      <td><button (click)="showAll()" >SHOW</button></td>
+       </tr>
+  
+</table>
+<!-- <div><app-twoway></app-twoway></div> -->
